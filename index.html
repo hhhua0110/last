@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HAPPY BIRTHDAY</title>
+
+        <link rel="stylesheet" href="css/style-home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script>
+
+      /* alert('生日快乐，点击请给我钱'); */
+      /*   is use jquery to wait for the page to be ready  */
+      /*  noun(object), want to do something to it, or ask a question of it */
+      /* we seperate nouns, verbs, adjectives by dots(.) this is colled dot notation */
+      $(document).ready(
+
+        function() {
+
+     $('#snowball').on('mouseover' ,
+
+       function(){
+
+         $('#1').css('opacity' , '1');
+
+       });
+
+       $('#snowball').on('mouseout' ,
+
+         function(){
+
+           $('#1').css('opacity' , '0');
+
+         });
+
+
+    $('#cube').on('mouseover' ,
+
+      function(){
+
+        $('#2').css('opacity' , '1');
+
+     });
+
+    $('#cube').on('mouseout' ,
+
+      function(){
+
+       $('#2').css('opacity' , '0');
+
+    });
+
+
+    $('#ball').on('mouseover' ,
+
+      function(){
+
+        $('#3').css('opacity' , '1');
+
+     });
+
+    $('#ball').on('mouseout' ,
+
+      function(){
+
+       $('#3').css('opacity' , '0');
+
+    });
+
+
+       });
+
+
+    </script>
+
+  </head>
+
+
+  <body>
+      <body background="images/web-1.gif">
+
+    <a href="solo.html">
+      <div class="square" id="snowball">
+      </div>
+   </a>
+
+    <a href="together.html">
+      <div class="square1" id="cube">
+      </div>
+   </a>
+
+    <a href="highschool.html">
+      <div class="square2" id="ball">
+      </div>
+    </a>
+
+     <div class="word" id="1">
+       点击就看青春美少女
+     </div>
+
+     <div class="word1" id="2">
+       点击就看美丽的我和瓜皮的你
+     </div>
+
+     <div class="word2" id="3">
+       点击就看哈哈哈哈
+     </div>
+
+
+
+
+  </body>
+</html>
